@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player</title>
+<!--    <link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main">
+    <div id="mainHead">
+        <div id="downloadContainer">
+            <div id="downloadButton" class="controls">
+                <div id="downloadArrow" onclick="loadText()"></div>
+            </div>
+        </div>
+    </div>
+    <div id="mainContainer">
+        <div id="playerContainer">
+            <div id="selectedTextContainer" class="text">
+                <!-- Text1 -->
+            </div>
+            <div id="audioContainer">
+                <audio id="audio"></audio>
+                <div id="audioProgressBar">
+                    <div id="audioProgress"></div>
+                </div>
+            </div>
+            <div id="controls">
+                <div id="hardLeftButton" class="controls minor">
+
+                </div>
+                <div id="leftButton" class="controls minor">
+
+                </div>
+                <div id="playButton" class="controls" onclick="playPause()"></div>
+                <div id="pauseButton" class="controls" onclick="playPause()"></div>
+                <div id="rightButton" class="controls minor">
+
+                </div>
+                <div id="hardRightButton" class="controls minor">
+
+                </div>
+                <div id="volumeButton" class="controls">
+
+                </div>
+            </div>
+            <div id="buttons">
+                <button id="markButton">ОТМЕТИТЬ</button>
+                <button id="confirmButton">ПОДТВЕРДИТЬ</button>
+            </div>
+        </div>
+        <div id="textContainer">
+            <div id="textFields">
+             <i> Загрузите файл для прослушивания</i>
+
+             <!--   <p class="text" onclick="selectText(0)">text1</p> -->
+             <!--   <p class="text" onclick="selectText(1)">text2</p> -->
+             <!--   <p class="text" onclick="selectText(2)">text3</p> -->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="s2.js"></script>
+</html>
